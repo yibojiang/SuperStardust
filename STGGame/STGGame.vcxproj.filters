@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="res\Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AudioManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BlueBulletConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BulletConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BulletManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CSingleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GreenBulletConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libOpenAl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RedBulletConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpaceEntity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\STGGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlanetManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Planet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ItemManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ItemType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Toggle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ToggleManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CollisionManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LevelManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MovableText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TutorialLevelManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EndlessLevelManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyCannon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameStateManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DisplayManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CameraManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StoryModeLevelManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScoreManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PinkBulletConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyBoss01.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyPyramid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainMenuState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GamePlayState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WorldManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TitleMenuState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModeMenuState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayMenuState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PauseMenuState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RankMenuState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CrossoutLevelManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BulletManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libOpenAl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\STGGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStateManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DisplayManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainMenuState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GamePlayState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MovableText.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TitleMenuState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModeMenuState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayMenuState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PauseMenuState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RankMenuState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\ReadMe.txt" />
+    <None Include="res\STGGame.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\STGGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

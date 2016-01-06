@@ -1,0 +1,32 @@
+
+material enemy_pryamid_color
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.466667 0.133333 0 1
+			diffuse 0.466667 0.133333 0 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+material enemy_pryamid_blue
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0.133333 0.466667 1
+			diffuse 0 0.133333 0.466667 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,77 @@
+
+particle_system STGGame/Star
+{
+	quota	500
+	material	STGGame/Flare
+	particle_width	10
+	particle_height	10
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter HollowEllipsoid
+	{
+		angle	0
+		colour	0.5 0.5 0.5 0.5
+		colour_range_start	0.5 0.5 0.5 0.5
+		colour_range_end	0.5 0.5 0.5 0.5
+		direction	0 0 1
+		emission_rate	5
+		position	0 0 0
+		velocity	0
+		velocity_min	0
+		velocity_max	0
+		time_to_live	20
+		time_to_live_min	20
+		time_to_live_max	20
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width	1000
+		height	1000
+		depth	1000
+		inner_width	0.6
+		inner_height	0.6
+		inner_depth	0.6
+	}
+}
+
+particle_system STGGame/FlowStar
+{
+	quota	1000
+	material	PE/lensflare
+	particle_width	1
+	particle_height	1
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Box
+	{
+		angle	0
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	0 0 1
+		emission_rate	60
+		position	0 0 0
+		velocity	32.61
+		velocity_min	32.61
+		velocity_max	32.61
+		time_to_live	4
+		time_to_live_min	4
+		time_to_live_max	4
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width	100
+		height	100
+		depth	100
+	}
+}

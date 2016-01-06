@@ -1,0 +1,32 @@
+
+material UFOWINDOWS
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 1.68 1.68 1.68 1 59
+		}
+
+	}
+
+}
+
+
+
+material UFOCHROME
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+		}
+
+	}
+
+}
+
+

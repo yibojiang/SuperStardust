@@ -1,0 +1,17 @@
+
+material cannon_metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.619608 0.619608 0.619608 1
+			diffuse 0.619608 0.619608 0.619608 1
+			specular 1.278 1.278 1.278 1 58
+		}
+
+	}
+
+}
+
+

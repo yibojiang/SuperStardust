@@ -1,0 +1,191 @@
+material STGGame/PauseMenu
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture PauseMenu.png
+			}
+		}
+	}
+}
+
+material STGGame/Title
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+
+
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture Title.jpg
+			}
+		}
+	}
+}
+
+material STGGame/TitleMenu
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture TitleMenu.png
+			}
+		}
+	}
+}
+material STGGame/Flare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			depth_check on
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture flare.png
+			}
+		}
+	}
+}
+material STGGame/LightRibbonTrail
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture ribbonband.png 1d
+				tex_address_mode clamp
+				filtering none
+			}
+		}
+	}
+}
+material STGGame/Blast
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+			depth_write off
+			depth_check on
+			texture_unit
+			{
+				anim_texture blast.png 35 1
+				filtering none
+			}
+		}
+	}
+}
+material STGGame/Explosion01
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+			depth_write off
+			depth_check on
+			texture_unit
+			{
+				anim_texture explode01.png 120 1
+				filtering none
+			}
+		}
+	}
+}
+material STGGame/Explosion02
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+			depth_write off
+			depth_check on
+			texture_unit
+			{
+				anim_texture explode02.png 120 1
+				filtering none
+			}
+		}
+	}
+}
+material STGGame/StarBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture starbox_bk.png starbox_fr.png starbox_lf.png starbox_rt.png starbox_up.png starbox_dn.png separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material STGGame/Bubble
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+			depth_write off
+			depth_check on
+			texture_unit
+			{
+				texture bubble.png
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+
+material space_frigate_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture color_0.jpg
+			}
+		}
+
+	}
+
+}
+
+

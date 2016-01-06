@@ -1,0 +1,57 @@
+
+material ff
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0509804 0.407843 0.741176 1
+			diffuse 0.0509804 0.407843 0.741176 1
+			specular 0.423 0.423 0.423 1 73
+			polygon_mode wireframe
+		}
+
+	}
+
+}
+
+
+
+material earth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0.27 0.27 0.27 1 40
+
+			texture_unit
+			{
+				texture earth.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material nuage
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.066666 0.184312 0.0588229 1
+			diffuse 0.2 0.552941 0.176471 1
+			specular 0.72 0.72 0.72 1 1
+		}
+
+	}
+
+}
+
+
